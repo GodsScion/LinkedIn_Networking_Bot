@@ -1,4 +1,4 @@
-# LinkedIn_Networking_Bot
+# LinkedIn Networking Bot
 This bot helps you build network with your ideal connections, send personalized requests to people you want to connect.
 
 ## ⚙️ How to install
