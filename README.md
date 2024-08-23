@@ -1,6 +1,24 @@
 # LinkedIn_Networking_Bot
 This bot helps you build network with your ideal connections, send personalized requests to people you want to connect.
 
+## ⚙️ How to install
+* [Python 3](https://www.python.org/) or above. Visit https://www.python.org/downloads/ to download and install Python, or for windows you could visit Microsoft Store and search for "Python". **Please make sure Python is added to Path in System Environment Variables**.
+* Install necessary [Undetected Chromedriver](https://pypi.org/project/undetected-chromedriver/), [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) and [Setuptools](https://pypi.org/project/setuptools/) packages. After Python is installed, OPEN a console/terminal or shell, Use below command that uses the [pip](https://pip.pypa.io/en/stable) command-line tool to install these 3 package.
+  ```
+  pip install undetected-chromedriver pyautogui setuptools
+  ```
+* Download and install latest version of [Google Chrome](https://www.google.com/chrome) in it's default location, visit https://www.google.com/chrome to download it's installer.
+* Clone the current git repo or download it as a zip file, url to the latest update https://github.com/GodsScion/Auto_job_applier_linkedIn.
+* Download and install the appropriate [Chrome Driver](https://googlechromelabs.github.io/chrome-for-testing/) for Google Chrome and paste it in the location Chrome was installed, visit https://googlechromelabs.github.io/chrome-for-testing/ to download.
+  <br> <br>
+  ***OR*** 
+  <br> <br>
+  If you are using Windows, click on `windows-setup.bat` available in the `/setup` folder, this will install the latest chromedriver automatically.
+* Open files in `/setup` folder and enter your login details in `secrets.py`, search terms in `settings.py` and other settings in `config.py`, configure the tool as per your needs.
+* Run `autoJobApplierLinkedIn.py` and see the magic happen.
+* If you have questions or need help setting it up or to talk in general, join the github server: https://discord.gg/fFp7uUzWCY
+  
+
 ## 📜 Disclaimer
 
 **This program is for educational purposes only. By downloading, using, copying, replicating, or interacting with this program or its code, you acknowledge and agree to abide by all the Terms, Conditions, Policies, and Licenses mentioned, which are subject to modification without prior notice. The responsibility of staying informed of any changes or updates bears upon yourself. For the latest Terms & Conditions, Licenses, or Policies, please refer to [LinkedIn Networking Bot](https://github.com/GodsScion/LinkedIn_Networking_Bot). Additionally, kindly adhere to and comply with LinkedIn's terms of service and policies pertaining to web scraping. Usage is at your own risk. The creators and contributors of this program emphasize that they bear no responsibility or liability for any misuse, damages, or legal consequences resulting from its usage.**
